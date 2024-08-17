@@ -1,0 +1,126 @@
+:root{
+    --background-color:#f5f5f5 ;
+    --whiteColor:#ffffff;
+    --greyColor:#c8c8c8;
+    --seaGreenColor:#019689;
+    --blackColor:#1c1c1c;
+    --lightBlackColor:#283617;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    background-color:var(--background-color);
+}
+
+#appWrapper{
+    margin-top: 7vh;
+    height: 85vh;
+    width: 25vw;
+    border-radius: 20px;
+    background-color: var(--whiteColor);
+    padding: 12px;
+}
+
+#appHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.icons{
+    color: var(--greyColor);
+}
+
+#headerTitle{
+    background-color: var(--seaGreenColor);
+    padding: 4px 15px;
+    border-radius: 17px;
+    color: var(--whiteColor);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+#resultContainer{
+    height: 26vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+#calculation{
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: var(--greyColor);
+}
+
+#calculation input{
+    font-size: 18px;
+    color: var(--greyColor);
+    border: none;
+}
+#calculation input:enabled{
+    border: none;
+    outline: none;
+}
+
+
+#result{
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: var(--blackColor);
+    font-weight: 700;
+}
+
+#buttonsWrapper{
+    height: 46vh;
+    width: 100%;
+    padding: 10px 20px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    color: var(--lightBlackColor);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.blueStyle{
+    color:#019689;
+    font-size: 23px;
+}
+.plusMinus{
+    font-size: 26px;
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
