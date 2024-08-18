@@ -113,7 +113,7 @@ body{
 }
 
 .blueStyle{
-    color:#019689;
+    color:#019689 !important;
     font-size: 23px;
 }
 .plusMinus{
